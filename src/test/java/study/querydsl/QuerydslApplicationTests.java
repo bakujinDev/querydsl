@@ -2,7 +2,6 @@ package study.querydsl;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,10 +14,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @SpringBootTest
 @Transactional
 class QuerydslApplicationTests {
-
     @Autowired
     EntityManager em;
-
 
     @Test
     void contextLoads() {
@@ -34,7 +31,5 @@ class QuerydslApplicationTests {
 
         assertEquals(result, hello);
         assertEquals(result.getId(), hello.getId());
-
     }
-
 }
