@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbefa700-5c2d-44dc-ad4d-18fcfd06e3c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/controller/InitMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/dto/MemberSearchCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/dto/MemberTeamDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/repository/MemberJpaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/querydsl/repository/MemberJpaRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/repository/MemberRepositoryCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/repository/MemberRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/querydsl/repository/MemberRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/study/querydsl/QuerydslApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/study/querydsl/QuerydslApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/querydsl/QuerydslApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/QuerydslApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/study/querydsl/QuerydslBasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/study/querydsl/QuerydslBasicTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/study/querydsl/repository/MemberJpaRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/study/querydsl/repository/MemberJpaRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/querydsl/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/study/querydsl/QuerydslBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/querydsl/QuerydslBasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/study/querydsl/repository/MemberJpaRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/querydsl/repository/MemberJpaRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -78,6 +72,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "20",
     "last_opened_file_path": "/Users/q/Documents/GitHub/querydsl/src/test/resources",
@@ -92,6 +88,12 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/study/querydsl/entity" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="study.querydsl.repository" />
     </key>
   </component>
   <component name="RunManager" selected="Application.QuerydslApplication">
@@ -152,29 +154,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="querydsl [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jar" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MemberJpaRepositoryTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberRepositoryTest.searchPageSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="querydsl.test" />
       <extension name="coverage">
         <pattern>
@@ -183,7 +163,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="study.querydsl.repository" />
-      <option name="MAIN_CLASS_NAME" value="study.querydsl.repository.MemberJpaRepositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="study.querydsl.repository.MemberRepositoryTest" />
+      <option name="METHOD_NAME" value="searchPageSimple" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberRepositoryTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="querydsl.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.querydsl.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="study.querydsl.repository" />
+      <option name="MAIN_CLASS_NAME" value="study.querydsl.repository.MemberRepositoryTest" />
       <option name="METHOD_NAME" value="searchTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -194,9 +190,9 @@
       <list>
         <item itemvalue="Application.QuerydslApplication" />
         <item itemvalue="Gradle.querydsl [clean]" />
-        <item itemvalue="JUnit.MemberJpaRepositoryTest.searchTest" />
-        <item itemvalue="Gradle.querydsl [jar]" />
         <item itemvalue="Gradle.querydsl [build]" />
+        <item itemvalue="JUnit.MemberRepositoryTest.searchPageSimple" />
+        <item itemvalue="JUnit.MemberRepositoryTest.searchTest" />
       </list>
     </recent_temporary>
   </component>

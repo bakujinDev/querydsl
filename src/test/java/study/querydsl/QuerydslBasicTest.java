@@ -41,6 +41,8 @@ import static study.querydsl.entity.QTeam.team;
 public class QuerydslBasicTest {
     @Autowired
     EntityManager em;
+
+    @Autowired
     JPAQueryFactory queryFactory;
 
     @BeforeEach
