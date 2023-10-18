@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbefa700-5c2d-44dc-ad4d-18fcfd06e3c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/querydsl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/querydsl.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/dto/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/controller/InitMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/dto/MemberSearchCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/dto/MemberTeamDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/repository/MemberJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/querydsl/repository/MemberJpaRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/study/querydsl/QuerydslBasicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/study/querydsl/QuerydslBasicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/study/querydsl/entity/QHello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/study/querydsl/QuerydslBasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/querydsl/QuerydslBasicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/study/querydsl/QuerydslApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/study/querydsl/QuerydslApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/querydsl/QuerydslApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/querydsl/QuerydslApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/q/Documents/GitHub/querydsl/src/main/java/study/querydsl/entity",
+    "jdk.selected.JAVA_MODULE": "20",
+    "last_opened_file_path": "/Users/q/Documents/GitHub/querydsl/src/test/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -87,86 +89,102 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/study/querydsl/entity" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuerydslBasicTest.sqlFunction2">
-    <configuration name="QuerydslBasicTest.bulkAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="querydsl.test" />
+  <component name="RunManager" selected="Application.QuerydslApplication">
+    <configuration name="QuerydslApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.querydsl.QuerydslApplication" />
+      <module name="querydsl.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="study.querydsl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="study.querydsl" />
-      <option name="MAIN_CLASS_NAME" value="study.querydsl.QuerydslBasicTest" />
-      <option name="METHOD_NAME" value="bulkAdd" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuerydslBasicTest.bulkDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="querydsl.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.querydsl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="study.querydsl" />
-      <option name="MAIN_CLASS_NAME" value="study.querydsl.QuerydslBasicTest" />
-      <option name="METHOD_NAME" value="bulkDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="querydsl [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="QuerydslBasicTest.bulkUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="querydsl.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.querydsl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="study.querydsl" />
-      <option name="MAIN_CLASS_NAME" value="study.querydsl.QuerydslBasicTest" />
-      <option name="METHOD_NAME" value="bulkUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="querydsl [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="QuerydslBasicTest.sqlFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="querydsl.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.querydsl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="study.querydsl" />
-      <option name="MAIN_CLASS_NAME" value="study.querydsl.QuerydslBasicTest" />
-      <option name="METHOD_NAME" value="sqlFunction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="querydsl [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="QuerydslBasicTest.sqlFunction2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberJpaRepositoryTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="querydsl.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.querydsl.*" />
+          <option name="PATTERN" value="study.querydsl.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="study.querydsl" />
-      <option name="MAIN_CLASS_NAME" value="study.querydsl.QuerydslBasicTest" />
-      <option name="METHOD_NAME" value="sqlFunction2" />
+      <option name="PACKAGE_NAME" value="study.querydsl.repository" />
+      <option name="MAIN_CLASS_NAME" value="study.querydsl.repository.MemberJpaRepositoryTest" />
+      <option name="METHOD_NAME" value="searchTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QuerydslBasicTest.sqlFunction2" />
-        <item itemvalue="JUnit.QuerydslBasicTest.sqlFunction" />
-        <item itemvalue="JUnit.QuerydslBasicTest.bulkDelete" />
-        <item itemvalue="JUnit.QuerydslBasicTest.bulkAdd" />
-        <item itemvalue="JUnit.QuerydslBasicTest.bulkUpdate" />
+        <item itemvalue="Application.QuerydslApplication" />
+        <item itemvalue="Gradle.querydsl [clean]" />
+        <item itemvalue="JUnit.MemberJpaRepositoryTest.searchTest" />
+        <item itemvalue="Gradle.querydsl [jar]" />
+        <item itemvalue="Gradle.querydsl [build]" />
       </list>
     </recent_temporary>
   </component>

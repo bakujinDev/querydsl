@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/querydsl.iml" filepath="$PROJECT_DIR$/.idea/modules/querydsl.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/querydsl.main.iml" filepath="$PROJECT_DIR$/.idea/modules/querydsl.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/querydsl.test.iml" filepath="$PROJECT_DIR$/.idea/modules/querydsl.test.iml" />
     </modules>
   </component>
 </project>
